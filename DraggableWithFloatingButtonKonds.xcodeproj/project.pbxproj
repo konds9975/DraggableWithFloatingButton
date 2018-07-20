@@ -15,6 +15,8 @@
 		1A734126210202B200F943F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A734124210202B200F943F1 /* LaunchScreen.storyboard */; };
 		1A734131210202B300F943F1 /* DraggableWithFloatingButtonKondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A734130210202B300F943F1 /* DraggableWithFloatingButtonKondsTests.swift */; };
 		1A73413C210202B300F943F1 /* DraggableWithFloatingButtonKondsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73413B210202B300F943F1 /* DraggableWithFloatingButtonKondsUITests.swift */; };
+		1A73414C210202FF00F943F1 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73414A210202FF00F943F1 /* ActionButton.swift */; };
+		1A73414D210202FF00F943F1 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73414B210202FF00F943F1 /* ActionButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1A734137210202B300F943F1 /* DraggableWithFloatingButtonKondsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggableWithFloatingButtonKondsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A73413B210202B300F943F1 /* DraggableWithFloatingButtonKondsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableWithFloatingButtonKondsUITests.swift; sourceTree = "<group>"; };
 		1A73413D210202B300F943F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A73414A210202FF00F943F1 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		1A73414B210202FF00F943F1 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1A734117210202AA00F943F1 /* DraggableWithFloatingButtonKonds */ = {
 			isa = PBXGroup;
 			children = (
+				1A734149210202CC00F943F1 /* ActionButton */,
 				1A734118210202AA00F943F1 /* AppDelegate.swift */,
 				1A73411A210202AA00F943F1 /* ViewController.swift */,
 				1A73411C210202AA00F943F1 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				1A73413D210202B300F943F1 /* Info.plist */,
 			);
 			path = DraggableWithFloatingButtonKondsUITests;
+			sourceTree = "<group>";
+		};
+		1A734149210202CC00F943F1 /* ActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A73414A210202FF00F943F1 /* ActionButton.swift */,
+				1A73414B210202FF00F943F1 /* ActionButtonItem.swift */,
+			);
+			path = ActionButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A73411B210202AA00F943F1 /* ViewController.swift in Sources */,
+				1A73414D210202FF00F943F1 /* ActionButtonItem.swift in Sources */,
 				1A734119210202AA00F943F1 /* AppDelegate.swift in Sources */,
 				1A734121210202AA00F943F1 /* DraggableWithFloatingButtonKonds.xcdatamodeld in Sources */,
+				1A73414C210202FF00F943F1 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
